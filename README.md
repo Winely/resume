@@ -2,6 +2,8 @@
 
 > Donggu's web resume
 
+见[https://winely.github.io/resume/dist/#/](https://winely.github.io/resume/dist/#/)
+
 ## Build Setup
 
 ``` bash
