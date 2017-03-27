@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 892.11">
+  <defs>
+    <style>.cls-1{opacity:0.56;fill:url(#蓝色渐变_2);}</style>
+    <linearGradient id="蓝色渐变_2" x1="687.04" y1="2402.19" x2="687.04" y2="1846.65"
+                    gradientTransform="translate(1647.04 2832.77) rotate(180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8ce4db"/>
+      <stop offset="1" stop-color="#1eb8d9"/>
+    </linearGradient>
+  </defs>
+  <title>header</title>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_1-2" data-name="图层 1">
+      <path class="cls-1"
+            d="M0,892.11c85,0,218.25-164,391-164s240,62,390,62,292-166.76,486-166.76,444,196,653,196V0H0Z"/>
+    </g>
+  </g>
+</svg>

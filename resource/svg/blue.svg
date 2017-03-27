@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 181.09 12">
+  <defs>
+    <style>.cls-1{fill:url(#蓝色渐变_2);}</style>
+    <linearGradient id="蓝色渐变_2" y1="6" x2="181.09" y2="6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8ce4db"/>
+      <stop offset="1" stop-color="#1eb8d9"/>
+    </linearGradient>
+  </defs>
+  <title>blue</title>
+  <g id="图层_2" data-name="图层 2">
+    <g id="图层_1-2" data-name="图层 1">
+      <rect class="cls-1" width="181.09" height="12"/>
+    </g>
+  </g>
+</svg>

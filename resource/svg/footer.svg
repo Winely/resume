@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920.07 546.95">
+  <defs>
+    <style>
+      .cls-1{isolation:isolate;}.cls-2{opacity:0.22;fill:url(#blue2);}.cls-3{opacity:0.29;fill:url(#blue3);}.cls-3,.cls-4,.cls-5{mix-blend-mode:multiply;}.cls-4{opacity:0.42;fill:url(#blue4);}.cls-5{opacity:0.25;fill:url(#blue5);}
+    </style>
+    <linearGradient id="blue2" x1="969.21" y1="517.86" x2="934.54" y2="75.81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8ce4db"/>
+      <stop offset="1" stop-color="#1eb8d9"/>
+    </linearGradient>
+    <linearGradient id="blue3" x1="960.03" y1="384.77" x2="960.03" y2="175.54" xlink:href="#蓝色渐变_2"/>
+    <linearGradient id="blue4" x1="959.24" y1="485.95" x2="913.63" y2="-95.51" xlink:href="#蓝色渐变_2"/>
+    <linearGradient id="blue5" x1="960.03" y1="355.81" x2="960.03" y2="109.22" xlink:href="#蓝色渐变_2"/>
+  </defs>
+  <title>footer</title>
+  <g class="cls-1">
+    <path class="cls-2"
+          d="M0,476.95c145,0,229-296,485-296s400,114,706,114,430-264,550-264,179,223,179,223l0,293H0Z"/>
+    <path class="cls-3" d="M0,362.95c425,0,661-152,985-152s492,206,718,206,217-58,217-58l0,188H0Z"/>
+    <path class="cls-4"
+          d="M0,0C114.14,0,210.14,423,370.63,423s181.49-111,366-111,228,84,459,84,232.49-208.49,339-208.49,271.5,258,385.49,258V546.95H0Z"/>
+    <path class="cls-5"
+          d="M1920.06,150.95c-85,0-220.31,164-393,164s-240-62-390-62S845,419.71,651,419.71,209,222.95,0,222.95v324H1920Z"/>
+  </g>
+</svg>
