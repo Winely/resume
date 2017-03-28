@@ -83,7 +83,7 @@
     div
       margin-left 24px
     .upper
-      margin-top 24px
+      margin-top 14px
     .down
       margin-bottom 20px
     p
@@ -94,7 +94,7 @@
     .large-label
       vertical-align text-top
       text-indent -4px
-      font-size 36px
+      font-size 48px
       font-weight 600
       margin-bottom 0.3em
   .edu-block:hover

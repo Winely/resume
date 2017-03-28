@@ -3,6 +3,7 @@
     <v-header></v-header>
     <overview></overview>
     <project></project>
+    <skill></skill>
     <info></info>
   </div>
 </template>
@@ -11,6 +12,7 @@
   import header from './components/header/header'
   import overview from './components/overview/overview'
   import project from './components/project/project'
+  import skill from './components/skill/skill'
   import info from './components/info/info'
   export default {
     name: 'app',
@@ -18,7 +20,8 @@
       'v-header': header,
       'overview': overview,
       'project': project,
-      'info': info
+      'info': info,
+      'skill': skill
     }
   }
 </script>

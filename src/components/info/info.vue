@@ -17,8 +17,9 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-.footer
-  width 100%
-  height 450px
-  margin-bottom -100px
+  .footer
+    width 100%
+    height 450px
+    margin-bottom -100px
+    background #fff
 </style>

@@ -29,8 +29,7 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   #header
-    /*width 100%*/
-    height 400px
+    height 440px
     .background
       position absolute
       z-index -1
