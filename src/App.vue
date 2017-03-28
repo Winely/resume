@@ -24,8 +24,8 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import url(//fonts.geekzu.org/earlyaccess/notosanssc.css);
-  @import url(//fonts.geekzu.org/css?family=Noto+Sans);
+  @import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+  @import url(//fonts.googleapis.com/css?family=Noto+Sans);
   body
     margin 0
     font-family "Noto Sans","Noto Sans SC",sans-serif
