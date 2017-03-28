@@ -20,7 +20,7 @@
     data () {
       return {
         name: '何冬怡',
-        slogan: '设计是戴着镣铐的舞蹈',
+        slogan: '设计是镣铐的舞蹈',
         email: 'me@donggu.me'
       }
     }
@@ -30,7 +30,7 @@
 <style lang="stylus" rel="stylesheet/stylus">
   #header
     /*width 100%*/
-    height 440px
+    height 400px
     .background
       position absolute
       z-index -1

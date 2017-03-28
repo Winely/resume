@@ -66,14 +66,15 @@
 <style lang="stylus" rel="stylesheet/stylus">
   #edu
     display flex
-    width 750px
     margin 30px auto
-    box-shadow 0 0 15px 2px #bbb
+    justify-content  center
+    *
+      transition-duration 500ms
 
   .edu-block
     color #fff
-    width 250px
-    height 250px
+    width 260px
+    height 240px
     margin 0
     background #ddd
     display flex
@@ -86,7 +87,7 @@
     .down
       margin-bottom 20px
     p
-      width 200px
+      width 90%
       margin 5px
       font-size 20px
       line-height 1em
@@ -96,17 +97,46 @@
       font-size 36px
       font-weight 600
       margin-bottom 0.3em
-
+  .edu-block:hover
+    box-shadow 0 0 15px #999
   .edu-school
     background url('./background.svg') no-repeat
     background-size cover
     color #000
+    .upper
+      opacity 0
+    .down
+      margin-bottom 80px
+      margin-left 32px
+      .large-label
+        font-size 48px
+  .edu-school:hover
+    .upper
+      opacity 100
+    .down
+      margin-left 24px
+      margin-bottom 24px
+      .large-label
+        font-size 36px
+
+  .edu-left
+    background url(left.svg)
+    background-size cover
+
+  .edu-left:hover
+    p
+      color #444
 
   .edu-right
     text-align end
+    background url(right.svg)
+    background-size cover
     .content
       margin-top 20px
     .main-award
       font-size 24px
       font-weight 600
+  .edu-right:hover
+    .main-award
+      color #ED8383
 </style>

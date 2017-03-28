@@ -26,7 +26,9 @@
     border-radius 16px
     z-index 999
     position absolute
-    .subtitle-content
+    transition-duration 0.5s
+    box-shadow 0 0 0 0 #aaa
+  .subtitle-content
       color #fff
       padding-left 10px
       padding-top 56px
@@ -35,4 +37,6 @@
       p
         margin 0 5px
         font-size 17px
+  .subtitle:hover
+    box-shadow 0 0 20px 0 #f5549e
 </style>

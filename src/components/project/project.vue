@@ -19,7 +19,7 @@
 <style lang="stylus" rel="stylesheet/stylus">
 #projects
   .content
-    background #eee
-    height 500px
+    background #efefef
+    height 600px
     width 100%
 </style>
