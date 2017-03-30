@@ -28,10 +28,9 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
-  @import url(//fonts.googleapis.com/css?family=Noto+Sans);
   body
     margin 0
-    font-family "Noto Sans","Noto Sans SC",sans-serif
+    font-family "Noto Sans SC",sans-serif
   .container
     margin 20px 10%
 </style>
