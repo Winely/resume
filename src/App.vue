@@ -1,6 +1,12 @@
 <template>
   <div id="app">
     <v-header></v-header>
+    <div class="lang-opt">
+      <input type="radio" id="lang-zh-CN" name="lang" v-model="language" value="zh-CN"/>
+      <label for="lang-zh-CN">中</label>
+      <input type="radio" id="lang-en" name="lang" v-model="language" value="En"/>
+      <label for="lang-en">En</label>
+    </div>
     <overview :titleName="titles.overview" :introduction="resume.introduction" :eduinfo="resume.edu"></overview>
     <project :titleName="titles.project" :projects="resume.projects"></project>
     <skill :titleName="titles.skill" :skills="resume.skills" :keys="resume.keys"></skill>
@@ -28,10 +34,18 @@
         return this.subtitles[this.language]
       }
     },
+    watch: {
+      language: function (val) {
+        this.$http.get('static/resume-' + val + '.json').then(resp => {
+          console.log(val)
+          this.resume = resp.body
+        })
+      }
+    },
     data () {
       return {
         resume: {},
-        language: 'en',
+        language: 'zh-CN',
         subtitles: {
           'zh-CN': {
             overview: '个人简介',
@@ -39,7 +53,7 @@
             skill: '专业技能',
             info: '了解更多'
           },
-          en: {
+          'En': {
             overview: 'Overview',
             project: 'Projects',
             skill: 'Skills',
@@ -49,7 +63,7 @@
       }
     },
     created: function () {
-      this.$http.get('static/resume-zh-CN.json').then(resp => {
+      this.$http.get('static/resume-' + this.language + '.json').then(resp => {
         this.resume = resp.body
       })
     }
@@ -64,4 +78,22 @@
 
   .container
     margin 20px 10%
+
+  .lang-opt
+    position absolute
+    z-index 99
+    right 30px
+    top 16px
+    [type=radio]
+      display none
+    input[type=radio]:checked + label
+      background #34C1D9
+    label
+      color #ffffff
+      border-radius 5px
+      padding 0.1em 0.4em
+      transition-duration .3s
+    label:hover
+      background #34C1D9
+
 </style>

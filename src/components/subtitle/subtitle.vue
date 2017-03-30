@@ -2,7 +2,7 @@
   <div class="subtitle" :id="id">
     <div class="subtitle-content">
       <p>—</p>
-      <p>{{titleName}}</p>
+      <h2>{{titleName}}</h2>
     </div>
   </div>
 </template>
@@ -32,9 +32,10 @@
     padding-top 56px
     padding-bottom 20px
     width 100px
-    p
+    p,h2
       margin 0 5px
       font-size 17px
+      font-weight 400
 
   .subtitle:hover
     border-radius 20px

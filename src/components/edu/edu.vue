@@ -27,7 +27,7 @@
         <p class="main-award">{{award.main}}</p>
       </div>
       <div class="down">
-        <p>校内活动</p>
+        <p>{{eduinfo.awardTitle}}</p>
         <p>—</p>
       </div>
     </div>
