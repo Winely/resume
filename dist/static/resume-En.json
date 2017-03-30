@@ -2,8 +2,14 @@
   "name": "Tungyee HO",
   "slogan": "Lorem ipsum dolor sit amet",
   "email": "me@dnoggu.me",
-  "github": "github.com/Winely",
-  "blog": "http://donggu.me",
+  "github": {
+    "protocol": "https",
+    "url": "github.com/Winely"
+  },
+  "blog": {
+    "protocol": "http",
+    "url": "donggu.me"
+  },
   "introduction": [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam.",
     "In ut est in orci commodo blandit. Cras rhoncus ultricies augue. Proin quam odio, venenatis ut tempus tristique, aliquet in velit. Pellentesque volutpat facilisis orci, ut congue mi rhoncus at. Nullam vehicula dignissim neque, sed rhoncus magna ultricies et.",

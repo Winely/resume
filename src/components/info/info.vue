@@ -3,15 +3,15 @@
     <subtitle :titleName="titleName" id="subtitle-info"></subtitle>
     <div class="content">
       <div v-if="blog" class="blog">
-        <a :href="'//'+blog" target="_blank">
+        <a :href="blog.protocol+'://'+blog.url" target="_blank">
           <i class="iconfont icon-iconblog2"></i>
-          {{blog}}
+          {{blog.url}}
         </a>
       </div>
       <div v-if="github" class="github">
-        <a :href="'//'+github" target="_blank">
+        <a :href="github.protocol+'://'+github.url" target="_blank">
           <i class="iconfont icon-github"></i>
-          {{github}}
+          {{github.url}}
         </a>
       </div>
       <div v-if="email" class="email">
