@@ -46,7 +46,7 @@
     },
     methods: {
       newTab: function (link) {
-        if (link.isEmpty()) return
+        if (link.isEmpty) return
         window.open(link)
       }
     },

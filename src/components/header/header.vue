@@ -17,13 +17,7 @@
 <script type="text/ecmascript-6">
   export default {
     name: 'header',
-    data () {
-      return {
-        name: '何冬怡',
-        slogan: '设计是镣铐的舞蹈',
-        email: 'me@donggu.me'
-      }
-    }
+    props: ['name', 'slogan', 'email']
   }
 </script>
 

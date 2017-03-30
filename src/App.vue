@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-header></v-header>
+    <v-header :name="resume.name" :slogan="resume.slogan" :email="resume.email"></v-header>
     <div class="lang-opt">
       <input type="radio" id="lang-zh-CN" name="lang" v-model="language" value="zh-CN"/>
       <label for="lang-zh-CN">中</label>
@@ -80,7 +80,7 @@
     margin 20px 10%
 
   .lang-opt
-    position absolute
+    position fixed
     z-index 99
     right 30px
     top 16px
@@ -89,6 +89,7 @@
     input[type=radio]:checked + label
       background #34C1D9
     label
+      background rgba(192, 240, 235, 0.2)
       color #ffffff
       border-radius 5px
       padding 0.1em 0.4em

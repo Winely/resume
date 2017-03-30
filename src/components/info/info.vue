@@ -76,5 +76,5 @@
           transition-duration .3s
       div:hover
         .iconfont
-          font-size 72px
+          font-size 92px
 </style>

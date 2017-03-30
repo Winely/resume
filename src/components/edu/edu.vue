@@ -57,6 +57,7 @@
     display flex
     flex-direction column
     justify-content space-between
+    overflow hidden
     div
       margin-left 24px
     .upper
@@ -84,7 +85,7 @@
       opacity 0
     .down
       margin-bottom 80px
-      margin-left 32px
+      margin-left 24px
       .large-label
         font-size 48px
   .edu-school:hover

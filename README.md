@@ -1,10 +1,10 @@
 # Resume
 
-> Donggu's web resume
+A web Resume developed with Vue.js.
+Demo: [https://winely.github.io/resume/dist/#/](https://winely.github.io/resume/dist/#/)
 
-基于Vue.js实现的web简历。
-
-见[https://winely.github.io/resume/dist/#/](https://winely.github.io/resume/dist/#/)
+## Quick deploy
+Directly copy files in `/dist` to your sever, and modify json file `resume-zh-CN.json` and `resume-En.json` in `/dist/static` to make it your own resume.
 
 ## Build Setup
 
@@ -27,5 +27,11 @@ npm run unit
 # run all tests
 npm test
 ```
+## file inventory
+- `/static/resume-zh-CN.json`  
+  The Chinese version of your resume data.
+
+- `/static/resume-En.json`  
+  The English version of your resume data.
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
