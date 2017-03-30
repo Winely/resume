@@ -107,7 +107,7 @@
         cursor pointer
       .thumbnail
         display block
-        max-width 60%
+        max-width 60vw
         margin 0 40% 0 20%
         box-shadow 0 0 15px #ddd
 
@@ -127,9 +127,9 @@
       font-size 20px
       color #fff
       z-index 99
-      width 60%
+      width 60vw
       height 400px
-      margin 0 40% 0 20%
+      margin 0 40% 0 20vw
       opacity 0
       transition-duration .3s
       overflow hidden
