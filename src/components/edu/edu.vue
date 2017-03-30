@@ -3,26 +3,26 @@
     <div class="edu-block edu-left">
       <div class="upper">
         <p class="large-label">GPA</p>
-        <p> {{gpa}}/{{gpaSum}}</p>
+        <p> {{eduinfo.gpa}}/{{eduinfo.gpaSum}}</p>
       </div>
       <div class="down">
-        <p>{{gpaRank}}</p>
+        <p>{{eduinfo.gpaRank}}</p>
         <p>—</p>
       </div>
     </div>
     <div class="edu-block edu-school">
       <div class="upper">
         <p>—</p>
-        <p>{{degree}}</p>
+        <p>{{eduinfo.degree}}</p>
       </div>
       <div class="down">
-        <p>{{time.from}}~{{time.to}} {{major}}</p>
-        <p class="large-label">{{college}}</p>
+        <p>{{eduinfo.time.from}}~{{eduinfo.time.to}} {{eduinfo.major}}</p>
+        <p class="large-label">{{eduinfo.college}}</p>
       </div>
     </div>
 
     <div class="edu-block edu-right">
-      <div class="content" v-for="award in awards">
+      <div class="content" v-for="award in eduinfo.awards">
         <p class="sub-award">{{award.sub}}</p>
         <p class="main-award">{{award.main}}</p>
       </div>
@@ -36,30 +36,7 @@
 
 <script type="text/ecmascript-6">
   export default {
-    data () {
-      return {
-        gpa: 4.2,
-        gpaSum: 5.0,
-        gpaRank: '前20%',
-        degree: '本科',
-        college: '同济大学',
-        major: '软件工程',
-        time: {
-          from: 2014,
-          to: 2018
-        },
-        awards: [
-          {
-            sub: '同济大学学生会传媒部',
-            main: '设计统筹处干事'
-          },
-          {
-            sub: '微软俱乐部颁发的',
-            main: '“微软之星”奖状'
-          }
-        ]
-      }
-    }
+    props: ['eduinfo']
   }
 </script>
 

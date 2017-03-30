@@ -1,6 +1,8 @@
-# cv
+# Resume
 
 > Donggu's web resume
+
+基于Vue.js实现的web简历。
 
 见[https://winely.github.io/resume/dist/#/](https://winely.github.io/resume/dist/#/)
 

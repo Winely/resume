@@ -1,9 +1,13 @@
 <template>
   <div class="projects">
-    <subtitle title="项目经历"></subtitle>
+    <subtitle :titleName="titleName" id="subtitle-project"></subtitle>
     <div class="content" on>
-      <div class="go go-left" @click="amount--" v-show="amount!=0"><p><<</p></div>
-      <div class="go go-right" @click="amount++" v-show="amount!=projects.length-1"><p>))</p></div>
+      <div class="go go-left" @click="amount--" v-show="amount!=0">
+        <i class="iconfont icon-left"></i>
+      </div>
+      <div class="go go-right" @click="amount++" v-show="amount!=projects.length-1">
+        <i class="iconfont icon-right"></i>
+      </div>
       <div class="viewer">
         <ul class="scrollpad" :style="getStyle">
           <li v-for="(project, index) in projects" :id="'project'+ (index+1)" @click="newTab(project.link)">
@@ -51,74 +55,10 @@
         return 'margin-left: -' + this.amount * 100 + '%; width:' + this.projects.length * 100 + 'vw'
       }
     },
+    props: ['projects', 'titleName'],
     data () {
       return {
-        amount: 0,
-        projects: [
-          {
-            name: '枸杞GoCheer',
-            from: '2016.10',
-            to: '2016.12',
-            link: 'http://baidu.com',
-            description: [
-              {
-                title: '项目时间',
-                content: '次少系飞志根感资元，方列容划派场验，战水弦果派业I。 由完三流立争色美心，题南水对着养单建为想，她究隶委这思利蹦。 员头工白切张万，此照备被派，分G红目霸。'
-              },
-              {
-                title: '公都本料实',
-                content: '将制片机等养目大小次，切品时定想完通精第，增里隶制，向记须查离的标连Y串度租束往求例。'
-              },
-              {
-                title: '白安需相结',
-                content: '与民究严示农才题知近安应开，做在 只什素把次千，报采验厂备次数很，B适做总选这离。 又金术争标亲示然社西里样，高北攻有长8法。'
-              }
-            ],
-            img: 'gocheer.jpg'
-          },
-          {
-            name: '枸杞GoCheer',
-            from: '2016.10',
-            to: '2016.12',
-            link: 'http://baidu.com',
-            description: [
-              {
-                title: '项目时间',
-                content: '次少系飞志根感资元，方列容划派场验，战思利蹦。 员头工白切张万，此照备被派，分G红目霸。'
-              },
-              {
-                title: '公都本料实',
-                content: '将制片机等养目大小次，切品时定想完通精第，增里隶制八2织走。 于置县展响商象过，价派县思育劳出，还情详般线秧型。 因存其法育划么到子方火空六及道质严，向记须查离的标连Y串度租束往求例。'
-              },
-              {
-                title: '白安需相结',
-                content: '与民究严示农才题知数很，B适做总选这离。 又金术争标亲示然社西里样，高北严全子上光只斯长分各，改价M则奔攻有长8法。'
-              }
-            ],
-            img: 'gocheer.jpg'
-          },
-          {
-            name: '枸杞GoCheer',
-            from: '2016.10',
-            to: '2016.12',
-            link: 'http://baidu.com',
-            description: [
-              {
-                title: '项目时间',
-                content: '次少系为想，她究隶委这思利蹦。 员头工白切张万，此照备被派，分G红目霸。'
-              },
-              {
-                title: '公都本料实',
-                content: '将制片机等养目大小次，切品时定想完通精第，增里隶制八2织走。 于置县展响到子方火空六及道质严，向记须查离的标连Y串度租束往求例。'
-              },
-              {
-                title: '白安需相结',
-                content: '与民究严示农才题知近安应开，千，报采验厂备次数很，B适做总选这离。 又金术争标亲示然社西里样，高北严全子上光只斯长分各，改价M则奔攻有长8法。'
-              }
-            ],
-            img: 'gocheer.jpg'
-          }
-        ]
+        amount: 0
       }
     }
   }
@@ -133,14 +73,20 @@
     .go
       position absolute
       z-index 999
-      height 100px
-      width 15%
+      height 300px
+      width 18%
       text-align center
-      margin-top 250px
-      p
-        margin 35px auto
+      margin-top 180px
+      transition-duration .3s
+      border-radius 15px
+      i
+        margin 108px auto
+        font-size 84px
+        line-height 1em
+        display block
     .go:hover
-      background rgba(0, 0, 0, 0.3)
+      //background rgba(0, 0, 0, 0.3)
+      color #E465A5
     .go-left
       left 0
     .go-right
@@ -157,7 +103,7 @@
       transition-duration .3s
       li
         display inline-block
-        width 99vw
+        width 100vw
         cursor pointer
       .thumbnail
         display block

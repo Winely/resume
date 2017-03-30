@@ -1,6 +1,6 @@
 <template>
   <div id="skill">
-    <subtitle title="专业技能"></subtitle>
+    <subtitle :titleName="titleName" id="subtitle-skill"></subtitle>
     <div class="content">
       <ul class="skills">
         <li v-for="skill in skills">
@@ -27,24 +27,14 @@
     },
     data () {
       return {
-        skills: [
-          {name: 'PHOTOSHOP', score: 0.9},
-          {name: 'ILLUSTRATOR', score: 0.8},
-          {name: '3d max', score: 0.25},
-          {name: 'experience Design', score: 0.5},
-          {name: 'PHOTOSHOP', score: 0.9},
-          {name: 'PHOTOSHOP', score: 0.9}
-        ],
-        keys: [
-          'Java', 'SEO', 'C++', 'Linux', 'Ruby', 'JavaScipt', 'Java', 'SEO', 'C++', 'Linux'
-        ]
       }
     },
     methods: {
       getLengthStyle: function (skill) {
         return 'width: ' + skill.score * 200 + 'px'
       }
-    }
+    },
+    props: ['skills', 'keys', 'titleName']
   }
 </script>
 
@@ -83,7 +73,7 @@
         p
           margin 0
           display inline-block
-          width 40%
+          width 50%
           color #ffffff
       .keys
         list-style none

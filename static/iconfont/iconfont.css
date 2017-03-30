@@ -1,0 +1,27 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1490882311731'); /* IE9*/
+  src: url('iconfont.eot?t=1490882311731#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1490882311731') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1490882311731') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1490882311731#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before { content: "\e69f"; }
+
+.icon-right:before { content: "\e665"; }
+
+.icon-left:before { content: "\e666"; }
+
+.icon-email:before { content: "\e657"; }
+
+.icon-iconblog2:before { content: "\e60f"; }
+
