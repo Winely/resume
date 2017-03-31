@@ -1,7 +1,7 @@
 # Resume
 
 A web Resume developed with Vue.js.
-Demo: [https://winely.github.io/resume/dist/#/](https://winely.github.io/resume/dist/#/)
+Demo: [http://cv.donggu.me](http://cv.donggu.me)
 
 ## Quick deploy
 Directly copy files in `/dist` to your sever, and modify json file `resume-zh-CN.json` and `resume-En.json` in `/dist/static` to make it your own resume.
