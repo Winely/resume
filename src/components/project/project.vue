@@ -104,7 +104,6 @@
       li
         display inline-block
         width 100vw
-        cursor pointer
       .thumbnail
         display block
         max-width 60vw
@@ -133,6 +132,7 @@
       opacity 0
       transition-duration .3s
       overflow hidden
+      cursor pointer
       .container
         margin 30px
         font-weight 200
@@ -142,9 +142,11 @@
           font-weight 400
           margin 0
           margin-top 20px
+          cursor pointer
         p
           font-size 18px
           margin 0
+          cursor pointer
     .description:hover
       opacity 1
     .banner
