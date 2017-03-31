@@ -1,6 +1,6 @@
 {
   "name": "何冬怡",
-  "slogan": "设计是镣铐上的舞蹈",
+  "slogan": "设计是戴着镣铐的舞蹈",
   "email": "me@dnoggu.me",
   "github": {
     "protocol": "https",
@@ -11,10 +11,9 @@
     "url": "donggu.me"
   },
   "introduction": [
-    "是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，滚滚长江东逝水，浪花淘尽英雄。 几度夕阳红。白发渔樵江渚上，都付笑谈中。",
-    "是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，滚滚长江东逝水，浪花淘尽英雄。 几度夕阳红。白发渔樵江渚上，都付笑谈中。",
-    "是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，滚滚长江东逝水，浪花淘尽英雄。 几度夕阳红。白发渔樵江渚上，都付笑谈中。",
-    "是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，滚滚长江东逝水，浪花淘尽英雄。 几度夕阳红。白发渔樵江渚上，都付笑谈中。"
+    "1996年生，同济大学软件学院大三在读。对交互设计、前端开发具有较浓厚的兴趣，并有一定的技术基础和开发经历。",
+    "因为平面设计方面的基础，加上对于细节实现的控制欲而选择了前端。无论是视觉设计还是工程设计都有其美学所在，戴上了镣铐的舞蹈才更具有现实的意义。",
+    "掌握HTML/CSS/JavaScript的基础知识，并开发过一些项目。现在正在自学Vue.js与前端工程化的相关话题，对构建工具、ES6等前端新事物怀有强烈的好奇和求知欲。"
   ],
   "edu": {
     "awardTitle": "校内活动",
@@ -44,102 +43,133 @@
       "name": "枸杞GoCheer",
       "from": "2016.10",
       "to": "2016.12",
-      "link": "https://github.com/Winely/resume",
+      "link": "https://github.com/GoCheerJava",
       "description": [
         {
-          "title": "项目时间",
-          "content": "次少系飞志根感资元，方列容划派场验，战水弦果派业I。 由完三流立争色美心，题南水对着养单建为想，她究隶委这思利蹦。 员头工白切张万，此照备被派，分G红目霸。"
+          "title": "枸杞——带有成就系统的划词翻译插件",
+          "content": "一个在网页划词的同时会根据用户行为给予成就提示的Chrome插件，并有全服排名。"
         },
         {
-          "title": "公都本料实",
-          "content": "将制片机等养目大小次，切品时定想完通精第，增里隶制，向记须查离的标连Y串度租束往求例。"
+          "title": "项目规模与实现",
+          "content": "3人，两个月。项目使用Java JSP，前端使用HTML/CSS/Bootstrap/JavaScript实现。"
         },
         {
-          "title": "白安需相结",
-          "content": "与民究严示农才题知近安应开，做在 只什素把次千，报采验厂备次数很，B适做总选这离。 又金术争标亲示然社西里样，高北攻有长8法。"
+          "title": "项目负责",
+          "content": "在项目中负责项目策划与管理、视觉设计、网页前端开发以及后端实现。"
         }
       ],
       "img": "gocheer.jpg"
     },
     {
-      "name": "枸杞GoCheer",
-      "from": "2016.10",
-      "to": "2016.12",
-      "link": "https://github.com/Winely/resume",
+      "name": "全真影院",
+      "from": "2016.7.18",
+      "to": "2016.7.22",
+      "link": "https://github.com/QuanzhenCinema",
       "description": [
         {
-          "title": "项目时间",
-          "content": "次少系飞志根感资元，方列容划派场验，战思利蹦。 员头工白切张万，此照备被派，分G红目霸。"
+          "title": "全真影院——电影院管理系统",
+          "content": "一个电影院管理系统，包括电影排片的展示、选座购票及排片、数据分析、系统管理板块。"
         },
         {
-          "title": "公都本料实",
-          "content": "将制片机等养目大小次，切品时定想完通精第，增里隶制八2织走。 于置县展响商象过，价派县思育劳出，还情详般线秧型。 因存其法育划么到子方火空六及道质严，向记须查离的标连Y串度租束往求例。"
+          "title": "项目规模与实现",
+          "content": "10人，一周。项目使用C#实现，前端使用了C# Razor/HTML/CSS/JQuery实现。"
         },
         {
-          "title": "白安需相结",
-          "content": "与民究严示农才题知数很，B适做总选这离。 又金术争标亲示然社西里样，高北严全子上光只斯长分各，改价M则奔攻有长8法。"
+          "title": "项目负责",
+          "content": "负责视觉设计及前端开发。"
         }
       ],
-      "img": "gocheer.jpg"
+      "img": "quanzhen.png"
     },
     {
-      "name": "枸杞GoCheer",
-      "from": "2016.10",
-      "to": "2016.12",
-      "link": "https://github.com/Winely/resume",
+      "name": "Moment——大学生创新项目平台",
+      "from": "2016.05",
+      "to": "2016.08",
+      "link": "https://github.com/MandyXue/Moment",
       "description": [
         {
-          "title": "项目时间",
-          "content": "次少系为想，她究隶委这思利蹦。 员头工白切张万，此照备被派，分G红目霸。"
+          "title": "Moment——大学生创新项目平台",
+          "content": "一个大学生创新项目平台，用来提供给学生、导师、企业之间进行团队组建、项目宣传的平台。导师和企业可以进行项目发布、状态管理，学生可以浏览项目信息并参与。并具有关注、站内信等一系列功能。"
         },
         {
-          "title": "公都本料实",
-          "content": "将制片机等养目大小次，切品时定想完通精第，增里隶制八2织走。 于置县展响到子方火空六及道质严，向记须查离的标连Y串度租束往求例。"
-        },
-        {
-          "title": "白安需相结",
-          "content": "与民究严示农才题知近安应开，千，报采验厂备次数很，B适做总选这离。 又金术争标亲示然社西里样，高北严全子上光只斯长分各，改价M则奔攻有长8法。"
+          "title": "项目负责",
+          "content": "在项目中负责视觉设计以及前端开发。"
         }
       ],
-      "img": "gocheer.jpg"
+      "img": "moment.png"
+    },
+    {
+      "name": "Marble game 弹球游戏",
+      "from": "2015.04",
+      "to": "2015.06",
+      "link": "",
+      "description": [
+        {
+          "title": "Bilibili Marble game —— 弹球游戏",
+          "content": "Win32平台弹球游戏。有多种道具掉落以及视觉效果。"
+        },
+        {
+          "title": "项目规模",
+          "content": "2人，两个月，使用Cocos2dx实现。"
+        },
+        {
+          "title": "项目负责",
+          "content": "在项目中负责视觉UI设计及菜单功能实现。"
+        }
+      ],
+      "img": "bilibili.png"
     }
   ],
   "skills": [
     {
-      "name": "PHOTOSHOP",
+      "name": "javascript",
+      "score": 0.7
+    },
+    {
+      "name": "html",
       "score": 0.9
     },
     {
-      "name": "ILLUSTRATOR",
+      "name": "css",
       "score": 0.8
     },
     {
-      "name": "3d max",
-      "score": 0.25
+      "name": "java",
+      "score": 0.75
     },
     {
-      "name": "experience Design",
-      "score": 0.5
+      "name": "c++",
+      "score": 0.7
     },
     {
-      "name": "试试中文",
-      "score": 0.9
+      "name": "c#",
+      "score": 0.7
     },
     {
-      "name": "PHOTOSHOP",
-      "score": 0.9
+      "name": "c",
+      "score": 0.6
+    },
+    {
+      "name": "git",
+      "score": 1
+    },
+    {
+      "name": "photoshop",
+      "score": 0.85
+    },
+    {
+      "name": "illustrator",
+      "score": 0.95
     }
   ],
   "keys": [
-    "Java",
-    "SEO",
-    "C++",
+    "交互设计",
+    "计算机网络",
+    "数据库分析与设计",
+    "OOAD",
+    "UML",
+    "Android",
     "Linux",
-    "Ruby",
-    "JavaScipt",
-    "Java",
-    "SEO",
-    "C++",
-    "Linux"
+    "Vue.js"
   ]
 }

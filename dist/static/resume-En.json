@@ -1,6 +1,6 @@
 {
-  "name": "Tungyee HO",
-  "slogan": "Lorem ipsum dolor sit amet",
+  "name": "HE Dongyi",
+  "slogan": "Design is dance in shackles",
   "email": "me@dnoggu.me",
   "github": {
     "protocol": "https",
@@ -39,79 +39,137 @@
     ]
   },
   "projects": [
-      {
-        "name": "GoCheer",
-        "from": "2016.10",
-        "to": "2016.12",
-        "link": "https://github.com/Winely/resume",
-        "description": [
-          {
-            "title": "introduction",
-            "content": "Orem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam."
-          },
-          {
-            "title": "Real thing",
-            "content": "Sectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero."
-          },
-          {
-            "title": "Go Cheer!",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis."
-          }
-        ],
-        "img": "gocheer.jpg"
-      },
-      {
-        "name": "GoCheer",
-        "from": "2016.10",
-        "to": "2016.12",
-        "link": "https://github.com/Winely/resume",
-        "description": [
-          {
-            "title": "introduction",
-            "content": "Orem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam."
-          },
-          {
-            "title": "Real thing",
-            "content": "Sectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero."
-          },
-          {
-            "title": "Go Cheer!",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis."
-          }
-        ],
-        "img": "gocheer.jpg"
-      },
-      {
-        "name": "GoCheer",
-        "from": "2016.10",
-        "to": "2016.12",
-        "link": "https://github.com/Winely/resume",
-        "description": [
-          {
-            "title": "introduction",
-            "content": "Orem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam."
-          },
-          {
-            "title": "Real thing",
-            "content": "Sectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero."
-          },
-          {
-            "title": "Go Cheer!",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis."
-          }
-        ],
-        "img": "gocheer.jpg"
-      }
-    ],
+    {
+      "name": "GoCheer",
+      "from": "2016.10",
+      "to": "2016.12",
+      "link": "https://github.com/GoCheerJava",
+      "description": [
+        {
+          "title": "GoCheer——Translator Extension with achievement system",
+          "content": "A chrome extention, which gives user the translation of selected content in web pages and give achievements if user's behavior attain some condition."
+        },
+        {
+          "title": "Progrect Team",
+          "content": "3 students in 2 months. Developed with Java JSP and HTML/CSS/Bootstrap/JavaScript in fore-end."
+        },
+        {
+          "title": "Responsibility",
+          "content": "As Team leader, I was responsible for system architecture design, web fore-end development and back-end realization."
+        }
+      ],
+      "img": "gocheer.jpg"
+    },
+    {
+      "name": "Quanzhen Cinema",
+      "from": "2016.7.18",
+      "to": "2016.7.22",
+      "link": "https://github.com/QuanzhenCinema",
+      "description": [
+        {
+          "title": "Quanzhen Cinema——A cinemma management system",
+          "content": "A cinema management system including movie arrangement, ticket module and data visualization module."
+        },
+        {
+          "title": "Project Team",
+          "content": "10 people/1 week. Developed in C#, and C# Razor/HTML/Css/JQuery."
+        },
+        {
+          "title": "Responsibility",
+          "content": "Visual design and fore-end development."
+        }
+      ],
+      "img": "quanzhen.png"
+    },
+    {
+      "name": "Moment",
+      "from": "2016.05",
+      "to": "2016.08",
+      "link": "https://github.com/MandyXue/Moment",
+      "description": [
+        {
+          "title": "Moment——Undergraduates innovation platform",
+          "content": "A innovation program platform for undergraduates, teachers and enterprises to build team and make publicity. "
+        },
+        {
+          "title": "Responsibility",
+          "content": "Visual design and fore-end development."
+        }
+      ],
+      "img": "moment.png"
+    },
+    {
+      "name": "Marble game",
+      "from": "2015.04",
+      "to": "2015.06",
+      "link": "",
+      "description": [
+        {
+          "title": "Bilibili Marble game",
+          "content": "Win32 application game. Classic marble game."
+        },
+        {
+          "title": "Project team",
+          "content": "2 people / 2 months, developed with Cocos2-dx."
+        },
+        {
+          "title": "Responsibility",
+          "content": "Visual design and menu development."
+        }
+      ],
+      "img": "bilibili.png"
+    }
+  ],
   "skills": [
-    {"name": "PHOTOSHOP", "score": 0.9},
-    {"name": "ILLUSTRATOR", "score": 0.8},
-    {"name": "3d max", "score": 0.25},
-    {"name": "experience Design", "score": 0.5},
-    {"name": "Sublime", "score": 0.9},
-    {"name": "Novel", "score": 0.9}
+    {
+      "name": "javascript",
+      "score": 0.7
+    },
+    {
+      "name": "html",
+      "score": 0.9
+    },
+    {
+      "name": "css",
+      "score": 0.8
+    },
+    {
+      "name": "java",
+      "score": 0.75
+    },
+    {
+      "name": "c++",
+      "score": 0.7
+    },
+    {
+      "name": "c#",
+      "score": 0.7
+    },
+    {
+      "name": "c",
+      "score": 0.6
+    },
+    {
+      "name": "git",
+      "score": 1
+    },
+    {
+      "name": "photoshop",
+      "score": 0.85
+    },
+    {
+      "name": "illustrator",
+      "score": 0.95
+    }
   ],
   "keys": [
-    "Java", "SEO", "C++", "Linux", "Ruby", "JavaScipt", "Java", "CEO", "C++", "Linux"
+    "UX design",
+    "Computer Network",
+    "Database design",
+    "OOAD",
+    "UML",
+    "Android",
+    "Linux",
+    "Vue.js"
   ]
 }

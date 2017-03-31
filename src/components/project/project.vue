@@ -10,8 +10,8 @@
       </div>
       <div class="viewer">
         <ul class="scrollpad" :style="getStyle">
-          <li v-for="(project, index) in projects" :id="'project'+ (index+1)" @click="newTab(project.link)">
-            <div class="description">
+          <li v-for="(project, index) in projects" :id="'project'+ (index+1)">
+            <div class="description" @click="newTab(project.link)">
               <div v-for="item in project.description" class="container">
                 <h4>{{item.title}}</h4>
                 <p>{{item.content}}</p>
@@ -27,8 +27,8 @@
             <svg v-else class="banner end-banner">
               <use xlink:href="#banner-end"></use>
             </svg>
-            <h4>{{project.name}}</h4>
-            <p>{{project.from}} ~ {{project.to}}</p>
+            <h4 @click="newTab(project.link)">{{project.name}}</h4>
+            <p @click="newTab(project.link)">{{project.from}} ~ {{project.to}}</p>
           </li>
         </ul>
       </div>

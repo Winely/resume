@@ -19,7 +19,10 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-.thumbnail img
-  max-width 100%
-  max-height 100%
+  .thumbnail
+    text-align center
+
+  .thumbnail img
+    max-width 100%
+    max-height 100%
 </style>
