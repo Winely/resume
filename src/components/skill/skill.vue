@@ -40,25 +40,22 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   #skill
-    /*height 400px*/
-    background #4d4d4d
     .content
       width 80%
-      padding 90px 0
       margin 0 10%
       .skills
+        tranL=80px
         column-count 2
         column-gap 100px
         list-style none
+        margin auto tranL 0 tranL*-1
         li
           padding-bottom 20px
+          text-align right
+          display flex
+          align-items center
           *
             transition-duration 0.2s
-        li:hover
-          p
-            color #ec8087
-          .score
-            fill url(#pinkGradient)
 
         .score-container
           height 10px
@@ -66,16 +63,19 @@
           display inline-flex
           background #444
           border-radius 3px
+          flex-shrink 0
         .score
           height 10px
-          fill url(#blue)
+          background #EEC057
           border-radius 3px
         p
           margin 0
           display inline-block
           width 50%
-          color #ffffff
+          padding-right 20px
       .keys
+        margin-top 0
+        margin-bottom 28px
         list-style none
         display flex
         justify-content space-between
@@ -86,7 +86,6 @@
           margin-top 0.8em
           padding 0.3em 1em
           border-radius 999em
-          background #74d8a8
-        li:hover
-          background #eff27c
+          border solid 1px #EEC057
+          color #EEC057
 </style>

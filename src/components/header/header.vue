@@ -1,15 +1,15 @@
 <template>
   <div id='header'>
-    <svg class="background" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <use xlink:href="#headerbg"></use>
-    </svg>
-    <div class="header-content">
-      <svg class="icon" xmlns:xlink="http://www.w3.org/1999/xhtml">
-        <use xlink:href="#headericon"></use>
-      </svg>
+    <!--<svg class="background" xmlns:xlink="http://www.w3.org/1999/xlink">-->
+      <!--<use xlink:href="#headerbg"></use>-->
+    <!--</svg>-->
+    <div class="container header-content">
+      <!--<svg class="icon" xmlns:xlink="http://www.w3.org/1999/xhtml">-->
+        <!--<use xlink:href="#headericon"></use>-->
+      <!--</svg>-->
       <h1>{{name}}</h1>
       <h3>{{slogan}}</h3>
-      <p>{{email}}</p>
+      <!--<p>{{email}}</p>-->
     </div>
   </div>
 </template>
@@ -22,32 +22,21 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  #header
-    height 470px
-    .background
-      position absolute
-      z-index -1
-      width 100%
-      height 800px
-    .header-content
-      display flex
-      flex-direction column
-      align-items center
-      padding-top 100px
-      .icon
-        height 35px
-        margin-bottom 10px
-      h1
-        font-size 72px
-        margin 0
-      h3
-        font-size 28px
-        font-weight 200
-        margin 0
-      p
-        color #1eb8d9
-        font-weight 100
-        font-family "Noto Sans S Chinese Thin"
-        font-size 22px
-        margin 0
+  theme= #eec057
+#header
+  background #333
+  margin 0
+  overflow hidden
+  height 200px
+.header-content
+  color theme
+  h1
+    font-size 52px
+    padding 0
+    margin-bottom 10px
+  h3
+    font-size 28px
+    font-weight 200
+    margin-top 10px
+
 </style>

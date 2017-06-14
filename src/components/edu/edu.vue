@@ -1,120 +1,80 @@
 <template>
   <div id="edu">
-    <div class="edu-block edu-left">
-      <div class="upper">
-        <p class="large-label">GPA</p>
-        <p> {{eduinfo.gpa}}/{{eduinfo.gpaSum}}</p>
-      </div>
-      <div class="down">
-        <p>{{eduinfo.gpaRank}}</p>
-        <p>—</p>
-      </div>
-    </div>
-    <div class="edu-block edu-school">
-      <div class="upper">
-        <p>—</p>
-        <p>{{eduinfo.degree}}</p>
-      </div>
-      <div class="down">
-        <p>{{eduinfo.time.from}}~{{eduinfo.time.to}} {{eduinfo.major}}</p>
-        <p class="large-label">{{eduinfo.college}}</p>
-      </div>
-    </div>
-
-    <div class="edu-block edu-right">
-      <div class="content" v-for="award in eduinfo.awards">
-        <p class="sub-award">{{award.sub}}</p>
-        <p class="main-award">{{award.main}}</p>
-      </div>
-      <div class="down">
-        <p>{{eduinfo.awardTitle}}</p>
-        <p>—</p>
+    <subtitle :titleName="titleName" id="subtitle-edu"></subtitle>
+    <div class="container">
+      <div class="edu-item" v-for="item in eduinfo">
+        <p class="edu-info">
+          <span class="date">{{item.time.from}}~{{item.time.to}} </span>
+          <span class="degree">{{item.degree}}</span>
+          <span class="point">●</span>
+        </p>
+        <div class="school-info">
+          <p>
+            <span class="large-label">{{item.college}}</span>,
+            <span class="major">{{item.major}}</span>
+          </p>
+          <div class="details">
+            <p>GPA: {{item.gpa}}/{{item.gpaSum}}, {{item.gpaRank}}</p>
+            <p class="award" v-for="award in item.awards">
+              <span class="sub-award">{{award.sub}}</span>
+              <span class="main-award">{{award.main}}</span>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
+  import subtitle from '../subtitle/subtitle'
   export default {
-    props: ['eduinfo']
+    props: ['eduinfo', 'titleName'],
+    components: {
+      subtitle
+    }
   }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  #edu
+  lh = 24px
+  .edu-item
     display flex
-    margin 30px auto
-    justify-content  center
-    *
-      transition-duration 500ms
+    align-items baseline
+  .edu-info
+    vertical-align: middle
+    display inline-block
+    text-align right
+    flex 3
 
-  .edu-block
-    color #fff
-    width 260px
-    height 240px
+  .school-info
+    display inline-block
+    flex 7
+    p
+      margin 10px auto
+  pd=50px
+  theme=#eec
+  .details
+    border-left solid 4px theme
+    padding-left pd
+    margin-left pd*-1
+  .point
+    color theme
+    margin 40px
+
+  .large-label
+    font-size lh
+    font-weight 600
     margin 0
-    background #ddd
-    display flex
-    flex-direction column
-    justify-content space-between
-    overflow hidden
-    div
-      margin-left 24px
-    .upper
-      margin-top 14px
-    .down
-      margin-bottom 20px
-    p
-      width 90%
-      margin 5px
-      font-size 20px
-      line-height 1em
-    .large-label
-      vertical-align text-top
-      text-indent -4px
-      font-size 48px
-      font-weight 600
-      margin-bottom 0.3em
-  .edu-block:hover
-    box-shadow 0 0 15px #999
-  .edu-school
-    background url('./background.svg') no-repeat
-    background-size cover
-    color #000
-    .upper
-      opacity 0
-    .down
-      margin-bottom 80px
-      margin-left 24px
-      .large-label
-        font-size 48px
-  .edu-school:hover
-    .upper
-      opacity 100
-    .down
-      margin-left 24px
-      margin-bottom 24px
-      .large-label
-        font-size 36px
 
-  .edu-left
-    background url(left.svg)
-    background-size cover
+  .major
+    font-size lh
 
-  .edu-left:hover
-    p
-      color #444
+  .degree, .date
+    color #555
+    text-align: right
 
-  .edu-right
-    text-align end
-    background url(right.svg)
-    background-size cover
-    .content
-      margin-top 20px
-    .main-award
-      font-size 24px
-      font-weight 600
-  .edu-right:hover
-    .main-award
-      color #ED8383
+  .degree
+    margin-left 12px
+    font-size 20px
 </style>
