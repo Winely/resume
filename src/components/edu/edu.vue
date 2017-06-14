@@ -38,7 +38,7 @@
   export default {
     props: ['eduinfo'],
     created () {
-        this.eduinfo = this.eduinfo[0]
+      this.eduinfo = this.eduinfo[0]
     }
   }
 </script>
@@ -47,7 +47,7 @@
   #edu
     display flex
     margin 30px auto
-    justify-content  center
+    justify-content center
     *
       transition-duration 500ms
 
@@ -78,8 +78,10 @@
       font-size 48px
       font-weight 600
       margin-bottom 0.3em
+
   .edu-block:hover
     box-shadow 0 0 15px #999
+
   .edu-school
     background url('./background.svg') no-repeat
     background-size cover
@@ -91,6 +93,7 @@
       margin-left 24px
       .large-label
         font-size 48px
+
   .edu-school:hover
     .upper
       opacity 100
@@ -117,6 +120,7 @@
     .main-award
       font-size 24px
       font-weight 600
+
   .edu-right:hover
     .main-award
       color #ED8383

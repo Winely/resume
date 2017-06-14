@@ -36,7 +36,7 @@
     },
     watch: {
       language: function (val) {
-        this.$http.get('static/resume-' + val + '.json').then(resp => {
+        this.$http.get('/static/resume-' + val + '.json').then(resp => {
           console.log(val)
           this.resume = resp.body
         })
@@ -63,7 +63,7 @@
       }
     },
     created: function () {
-      this.$http.get('static/resume-' + this.language + '.json').then(resp => {
+      this.$http.get('/static/resume-' + this.language + '.json').then(resp => {
         this.resume = resp.body
       })
     }
