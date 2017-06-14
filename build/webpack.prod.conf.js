@@ -48,14 +48,14 @@ var webpackConfig = merge(baseWebpackConfig, {
         safe: true
       }
     }),
-    // generate dist index.html with correct asset hash for caching.
-    // you can customize output by editing /index.html
+    // generate dist index2.html with correct asset hash for caching.
+    // you can customize output by editing /index2.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: process.env.NODE_ENV === 'testing'
-        ? 'index.html'
+        ? 'index2.html'
         : config.build.index,
-      template: 'index.html',
+      template: 'index2.html',
       inject: true,
       minify: {
         removeComments: true,
@@ -87,10 +87,10 @@ var webpackConfig = merge(baseWebpackConfig, {
       name: 'manifest',
       chunks: ['vendor']
     }),
-    // copy custom static assets
+    // copy custom static2 assets
     new CopyWebpackPlugin([
       {
-        from: path.resolve(__dirname, '../static'),
+        from: path.resolve(__dirname, '../static2'),
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }

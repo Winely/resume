@@ -4,7 +4,7 @@
     <ul class="container">
       <li v-for="(project, index) in projects" :id="'project'+ (index+1)">
         <div class="shortcut" @click="newTab(project.link)">
-          <thumbnail :imgSrc="'./static/'+project.img" width="200px" height="150px"></thumbnail>
+          <thumbnail :imgSrc="'./static2/'+project.img" width="200px" height="150px"></thumbnail>
           <span class="date">{{project.from}} ~ {{project.to}}</span>
         </div>
         <!--<div class="divider"></div>-->

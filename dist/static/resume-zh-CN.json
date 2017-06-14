@@ -1,7 +1,7 @@
 {
   "name": "何冬怡",
   "slogan": "设计是戴着镣铐的舞蹈",
-  "email": "me@dnoggu.me",
+  "email": "me@donggu.me",
   "github": {
     "protocol": "https",
     "url": "github.com/Winely"
@@ -15,7 +15,7 @@
     "因为平面设计方面的基础，加上对于细节实现的控制欲而选择了前端。无论是视觉设计还是工程设计都有其美学所在，戴上了镣铐的舞蹈才更具有现实的意义。",
     "掌握HTML/CSS/JavaScript的基础知识，并开发过一些项目。现在正在自学Vue.js与前端工程化的相关话题，对构建工具、ES6等前端新事物怀有强烈的好奇和求知欲。"
   ],
-  "edu": {
+  "edu": [{
     "awardTitle": "校内活动",
     "gpa": 4.2,
     "gpaSum": 5.0,
@@ -37,7 +37,7 @@
         "main": "“微软之星”奖状"
       }
     ]
-  },
+  }],
   "projects": [
     {
       "name": "枸杞GoCheer",
