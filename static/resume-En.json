@@ -1,7 +1,7 @@
 {
   "name": "HE Dongyi",
   "slogan": "Design is dance in shackles",
-  "email": "me@dnoggu.me",
+  "email": "me@donggu.me",
   "github": {
     "protocol": "https",
     "url": "github.com/Winely"
@@ -15,7 +15,7 @@
     "In ut est in orci commodo blandit. Cras rhoncus ultricies augue. Proin quam odio, venenatis ut tempus tristique, aliquet in velit. Pellentesque volutpat facilisis orci, ut congue mi rhoncus at. Nullam vehicula dignissim neque, sed rhoncus magna ultricies et.",
     "Lorem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam."
   ],
-  "edu": {
+  "edu": [{
     "awardTitle": "Awards",
     "gpa": 4.2,
     "gpaSum": 5.0,
@@ -37,7 +37,7 @@
         "main": "Hackthon champion"
       }
     ]
-  },
+  }],
   "projects": [
     {
       "name": "GoCheer",

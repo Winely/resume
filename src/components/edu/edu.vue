@@ -36,7 +36,10 @@
 
 <script type="text/ecmascript-6">
   export default {
-    props: ['eduinfo']
+    props: ['eduinfo'],
+    created () {
+        this.eduinfo = this.eduinfo[0]
+    }
   }
 </script>
 
